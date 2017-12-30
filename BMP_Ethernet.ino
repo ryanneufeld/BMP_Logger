@@ -77,8 +77,6 @@ void setup() {
     while (1) {}
   }
 
-  Serial.println(F("Adafruit MQTT demo"));
-
   // Initialise the Client
   Serial.print(F("\nInit the Client..."));
   Ethernet.begin(mac, iotIP, dnsIP);
